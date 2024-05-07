@@ -1,4 +1,4 @@
-# Dio-java-básico
+# Dio java básico
 Repositório para armazenar o conteúdo do curso de java básico da dio
 
 ## Aprendendo a conectar o VScode com o GitHub pelo Git

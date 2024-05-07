@@ -1,4 +1,4 @@
-# Sintaxe Java
+# Sintaxe Java | Anatomia das classes
 
 ## Declaração de uma nova classe
 
