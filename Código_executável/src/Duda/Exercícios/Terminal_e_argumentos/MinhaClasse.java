@@ -1,12 +1,25 @@
 package Duda.Exercícios.Terminal_e_argumentos;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class MinhaClasse {
     public static void main(String[] args) {
-        String nome = args [0];
-        String sobrenome = args[1];
-        int idade = Integer.valueOf(args[2]);
+        //criando objeto scanner
+        // recebe os valores pelo terminal
 
-        System.out.println("Olá meu nome é " + nome + sobrenome);
-        System.out.println("Eu tenho " + idade + "anos");
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        System.out.println("Digite seu nome");
+        String nome = scanner.next();
+
+        System.out.println("Digite seu sobrenome");
+        String sobrenome = scanner.next();
+        
+        System.out.println("Digite sua idade");
+        int idade = scanner.nextInt();
+
+        System.out.println("Olá meu nome é " + nome + " " +sobrenome);
+        System.out.println("Eu tenho " + idade + " anos");
     }
 }
