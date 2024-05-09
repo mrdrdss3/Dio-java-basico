@@ -35,8 +35,25 @@ boolean variavel = !false;
 System.out.print(variavel); // Resultado = true
 ```
 
-- Ternário
+- Ternário -> Expressão condicional ? caso seja true : caso seja false; funciona como o if e else
 
+```
+int a, b;
+a = 5;
+b = 6;
+String resultado = a==b ? "verdadeiro" : "falso";
 
+System.out.print(resultado);
+```
 
+- Relacionais (==, !=, >=, <=, >, <)
 
+equals = equivale ao conteúdo, como duas strings. exemplo:
+
+```
+String nome1 = "Vitória";
+String nome2 = new String("Vitória");
+Sytem.out.print(nome1.equals(nome2));
+```
+
+- Lógicos (&& (e), ||(ou))

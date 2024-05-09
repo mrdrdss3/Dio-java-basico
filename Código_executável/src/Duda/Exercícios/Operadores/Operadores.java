@@ -17,5 +17,12 @@ public class Operadores {
         boolean variavel = !false;
 
         System.out.print(variavel); // Resultado = true
+
+        int a, b;
+        a = 5;
+        b = 6;
+        String resultado = a==b ? "verdadeiro" : "falso";
+
+        System.out.print(resultado);
     }
 }
