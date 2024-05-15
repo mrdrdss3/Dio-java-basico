@@ -58,3 +58,10 @@ String representa o texto e char um caractere:
 String nome = "Maria Eduarda";
 char sexo = 'F' // aspas simples
 ```
+
+PARA CRIAR LISTAS FAZEMOS:
+```
+String nomeArray[] = {"elementos","do","array","de uma string"};
+
+int nomeDoArray[] = {1,2,3,4,5,5};
+```

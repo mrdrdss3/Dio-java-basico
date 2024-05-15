@@ -7,12 +7,14 @@
 
 ## Estruturas de Repetição
 
-- for
-- while
-- do-while
+- for (para) - for(bloco de inicialização; expressão booleana de validação; bloco de atualização). Ver exercício para exemplo
+- while (enquanto). Ver exercício para exemplo
+- do-while (faça enquanto). Ver exercício para exemplo
+
+OBS: Às vezes é necessário usar o break ou continue, como no caso do while.
 
 ## Estruturas de Exceções
 
-- try-catch-finally
+- try-catch-finally - Ver exercício para exemplo
 - throw
 
